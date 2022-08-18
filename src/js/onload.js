@@ -16,7 +16,8 @@ function clickUploadImage(){
         fileUpload.click()
     }
     fileUpload.onchange = function(e){
-        img.src = URL.createObjectURL(e.target.files[0])
+        if(e.target.files.length > 0)
+            img.src = URL.createObjectURL(e.target.files[0])
     }
 }
 
