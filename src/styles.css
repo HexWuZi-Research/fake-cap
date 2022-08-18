@@ -57,6 +57,10 @@ body .region-content .heading2 h3 {
   width: 100%;
 }
 
+.photo > input{
+  opacity: 0;
+}
+
 header .switch-language {
   display: none !important;
 }
